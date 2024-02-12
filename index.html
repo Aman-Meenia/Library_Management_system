@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="index.css">
+
+
+</head>
+<body>
+
+    <header>
+        <h1> Library Management System </h1>
+    </header>
+
+
+
+    <div id="main">
+
+        <div id="left">
+
+            <div id="display_list">
+                <button class="btn" id="btn1" >ADD BOOK</button>
+                <button class="btn" id="btn2" >BORROW OR RETURN BOOK</button>
+                <button class="btn" id="btn3" >SEARCH BOOK</button>
+            </div>
+
+            
+        </div>
+        <div id="right">
+
+
+
+            <!-- ADD BOOK  -->
+            <div id="show1">
+
+            <div id="addBook">
+                <h1> ADD BOOK TO LIBRARY</h1>
+ <label for="">BOOK ID:</label>
+ <input type="text" name="bookdId" placeholder="Add Book ID" id="bookId"/>
+ <label for="">BOOK TITLE:</label>
+ <input type="text" name="bookdId" placeholder="Add Book ID" id="title"/>
+  <label for="">BOOK AUTHOR NAME :</label>
+ <input type="text" name="bookdId" placeholder="Add Book ID" id="author"/>
+
+
+ <button id="submit_add_book" type="submit"> Submit</button>
+
+         </div>
+     
+     
+        </div>
+
+        <!-- Display Books -->
+
+        <div id="data-table">
+
+    <div class="table">
+            <h1> List of All Books</h1>
+            
+            <table id="book-data-table">
+                <thead>
+                <tr>           
+                     <th class="snoidfortable">Sno.</th>
+                    <th class="bookidfortable">BookId</th>
+                    <th class="titleidfortable">Title</th>
+                    <th class="authoridfortable">Author</th>
+                    <th class="statusidfortable">Status</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+                <!-- <tr id="addnewbook">
+                    <td id="setSno">1.</td>
+                    <td id="setid"">1a kaj k dkaj fa </td>
+                    <td id="settitle">My todo 1</td>
+                    <td id="setauthor">false</td>
+                   <td id="setstaus"> true</td>
+                </tr> -->
+           
+            </table>
+        </div>    
+        </div>
+
+<!--  Search Book  -->
+<div id="show3">
+<div>
+    <h1> Search book with their title </h1>
+<div id="search_content">
+<div>
+    <label >Enter Title  :</label>
+    <input type="text" name="bookTitle" placeholder="Enter Book Title" id="Book_Title"/>
+</div>
+    <button id="Search_by_title" type="submit"> Submit</button>
+</div>
+    <table id="search_book_table">
+        <thead>
+            <tr>           
+                 <th class="snoidfortable">Sno.</th>
+                <th class="bookidfortable">BookId</th>
+                <th class="titleidfortable">Title</th>
+                <th class="authoridfortable">Author</th>
+                <th class="statusidfortable">Status</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+            </table>
+
+
+</div>
+
+</div>
+
+        </div>
+
+
+    </div>
+
+
+
+</body>
+
+<script src="index.js"></script>
+</html>

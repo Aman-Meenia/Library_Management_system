@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    display: flex;
+justify-content: center;
+padding: 10px;
+font-size: 25px;
+color: white;
+}
+
+
+
+body{
+
+    background-image: url("library3.avif");
+}
+
+#main{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+#left{
+    width: 50%;
+    /* background-color: antiquewhite; */
+
+}
+
+#display_list{
+height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.btn{
+    border-radius: 10px;
+font-size: 15px;
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+
+
+/* Right PART  */
+#right{
+    width: 70%;
+    /* background-color: white; */
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+
+
+/* ADD BOOK  */
+#show1{
+    display: none;
+}
+
+#show1 input{
+    border-radius: 5px;
+    size: 50px;
+}
+
+
+#addBook{
+
+    /* height: 100vh; */
+    height: 400px;
+    width: 400px;
+    align-self: center;
+    /* background-color: whitesmoke; */
+    background-color: khaki;
+    opacity: 0.8;
+    border-radius: 5px;
+    display: flex;
+    /* -webkit-backdrop-filter: blur(5px); */
+    backdrop-filter: blur(2px);
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+
+ 
+}
+
+#addBook input{
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 2px;
+}
+#addBook button{
+    padding: 5px;
+    margin: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+
+}
+
+#addBook h1{
+    padding-bottom: 20px;
+}
+/*  Display all books  */
+#book-data-table{
+    background-color: khaki;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+#data-table{
+    padding: 15px;
+    height: 100vh;
+    width: 100%;
+    display: none;
+    }
+        table {
+            overflow-y:auto;
+            border-collapse: scroll;
+            width: 100%;
+        }
+    
+        td,
+        th {
+            border: 1px solid #000000;
+            text-align: left;
+            padding: 8px;
+        }
+.snoidfortable{
+width: 5%;
+}
+.bookidfortable{
+ width: 20%;   
+}
+.titleidfortable{
+    width: 40%; 
+}
+.authoridfortable{
+width: 15%;
+}
+
+.statusidfortable{
+    width: 10%;
+}
+
+
+
+/*  Search book  */
+
+
+#show3{
+    display: none;
+}
+
+
+/* stauts btn  */
+
+
+.status_btn_borrowed{
+    
+padding: 8px;
+font-weight: bold;
+border-radius: 10px;
+background-color: greenyellow;
+}
+
+.status_btn_return{
+    padding: 8px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: gray;
+}
+
+
+#search_book_table{
+    display: none; 
+}
+#show3{
+    padding: 10px;
+    background-color:khaki;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+
+
+#show3 h1{
+    
+padding-bottom: 20px;
+}
+
+#search_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+
+
+}
+#search_content input{
+    height: 20px;
+    border-radius: 8px;
+    padding: 2px;
+}
+#search_content label{
+    height: 25px;
+}
+
+#Search_by_title{
+    margin: 10px;
+    padding: 8px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: gray;
+    /* padding: 8px;
+    border-radius: 10px;
+    border: 2px;
+    width: 50px;
+    margin: 10px;
+background-color: gray; */
+    
+}
+
+
+
+/*  table */
+
+
+table{
+    font-size: 15px;
+}
+
+
+/*  */
+.table{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#data-table h1{
+    color: white;
+    height:25px;
+display: flex;
+justify-content: center;
+padding: 10px;
+}
